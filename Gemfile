@@ -26,5 +26,5 @@ gem 'builder'      # XML builder
 gem 'erubis'
 gem 'multi_json'
 gem 'nokogiri'
-gem 'mini_magick'
+gem 'mini_magick', '>= 4.9.4'
 gem 'tzinfo'
