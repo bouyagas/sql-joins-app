@@ -16,7 +16,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-fastclick', '1.0.6'
   gem 'rails-assets-zeroclipboard', '2.2.0'
 end
-gem 'foundation-rails', '~> 5.5', require: false
+gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2', require: false
 # UTILS
 gem 'oily_png'     # faster PNG
 gem 'therubyracer' # faster ExecJS
@@ -25,6 +25,6 @@ gem 'kramdown', '>= 1.9.0'    # faster ExecJS
 gem 'builder'      # XML builder
 gem 'erubis'
 gem 'multi_json'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.8.3'
 gem 'mini_magick'
 gem 'tzinfo'
