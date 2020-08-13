@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '>= 4.1.9'
+gem 'middleman', '>= 4.3.8'
 # EXTENSIONS
 gem 'middleman-sprockets', '>= 4.0.0'
 gem 'middleman-favicon-maker', '>= 4.0.3' # Generate favicon files in various sizes from a base image
