@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '>= 4.1.9'
+gem 'middleman', '>= 4.6.0'
 # EXTENSIONS
 gem 'middleman-sprockets', '>= 4.0.0'
 gem 'middleman-favicon-maker', '>= 4.0.3' # Generate favicon files in various sizes from a base image
@@ -16,7 +16,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-fastclick', '1.0.6'
   gem 'rails-assets-zeroclipboard', '2.2.0'
 end
-gem 'foundation-rails', '~> 5.5', require: false
+gem 'foundation-rails', '~> 6.5', '>= 6.5.1.0', require: false
 # UTILS
 gem 'oily_png'     # faster PNG
 gem 'therubyracer' # faster ExecJS
